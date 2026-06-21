@@ -1,0 +1,10 @@
+{
+  "title": "Oriz Stack",
+  "subtitle": "Astro 6 + Cloudflare Pages + Firebase Spark Family Architecture",
+  "author": "Chirag Singhal",
+  "language": "en",
+  "pricing": { "base": 19, "pro": 39, "currency": "USD" },
+  "channels": {"leanpub": true, "gumroad": true, "lemonsqueezy": true, "kdp": true, "gpb": true},
+  "manuscript": "./manuscript",
+  "outputs": { "epub": true, "pdf": true, "mobi": true, "markua": true }
+}
