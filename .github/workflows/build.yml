@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: pnpm }
       - run: pnpm dlx @chirag127/oriz-book-build build || echo "oriz-book-build v0.1.0 is a stub — real build lands in v0.1.1"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: book-artifacts
